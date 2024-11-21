@@ -1,0 +1,36 @@
+.container {
+  width: 340px;
+  margin: 1rem auto;
+}
+
+form {
+  margin-top: 1rem;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.form-group input {
+  width: 290px;
+  font-size: 15px;
+  padding: 3px;
+  color: red;
+}
+
+.form-group {
+  font-size: 20px;
+  padding: 2px;
+}
+.button {
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.button input:hover {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
