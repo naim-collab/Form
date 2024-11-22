@@ -1,4 +1,4 @@
-.container {
+.container-1 {
   width: 340px;
   margin: 1rem auto;
 }
@@ -10,14 +10,14 @@ form {
   background-color: #ddd;
 }
 
-.form-group input {
-  width: 290px;
+.form-group-1 input {
+  width: 100%;
   font-size: 15px;
   padding: 3px;
   color: red;
 }
 
-.form-group {
+.form-group-1 {
   font-size: 20px;
   padding: 2px;
 }
@@ -33,4 +33,77 @@ form {
 h2 {
   text-align: center;
   margin-top: 2rem;
+}
+
+.container {
+  margin: 2rem auto;
+  width: 500px;
+  background-color: #ddd;
+  border-radius: 1rem;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  color: white;
+  padding: 1rem;
+}
+
+.form {
+  /* width: 100%; */
+}
+
+form {
+  /* margin-left: 2rem; */
+  padding: 1rem;
+}
+
+.inline-form {
+  display: flex;
+  /* background-color: antiquewhite; */
+  gap: 2rem;
+  /* width: 200px; */
+
+  align-items: center;
+}
+
+.form-group {
+  padding: 0.5rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-group-bio {
+  padding: 0.5rem;
+}
+
+.form-group-bio textarea {
+  width: 100%;
+}
+.check-box {
+  display: flex;
+  text-align: center;
+  margin: 0.5rem;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: #6f1f1f; */
+}
+.radio-inline-group {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.form-group-gender {
+  display: flex;
+  padding: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
 }

@@ -5,25 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     <link rel="stylesheet" href="form.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
   </head>
   <body>
-    <div class="container">
+    <div class="container-1">
       <h2>Fill Up</h2>
       <form>
-        <div class="form-group">
+        <div class="form-group-1">
           <label for="fname">First</label><br />
           <input type="text" id="fname" placeholder="input name" />
         </div>
-        <div class="form-group">
+        <div class="form-group-1">
           <label for="lname">Last</label><br />
           <input type="text" id="lname" placeholder="input name" />
         </div>
-        <div class="form-group">
+        <div class="form-group-1">
           <label for="password">Password</label><br />
           <input type="password" id="password" placeholder="looser" />
         </div>
         <div class="button"><input type="submit" /></div>
       </form>
+    </div>
+
+    <div class="container">
+      <h1>FIll</h1>
+      <section class="form">
+        <form>
+          <div class="inline-form">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="Naim" />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Fakir" />
+            </div>
+          </div>
+
+          <div class="inline-form">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="acb@gmail.com" />
+            </div>
+            <div class="form-group">
+              <label for="number">Phone No</label>
+              <input type="tel" id="number" placeholder="01571361604" />
+            </div>
+          </div>
+
+          <div class="inline-form">
+            <div class="form-group">
+              <label for="country">Country</label>
+              <select name="country" id="country">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Brazil">Brazil</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="city">City</label>
+              <select name="city" id="city">
+                <option value="Dhaka">Dhaka</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="chittagong">Chittagong</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group-gender">
+            <label for="gender">Gender</label>
+            <div class="radio-inline-group">
+              <div class="radio-inline">
+                <label for="male">Male</label>
+                <input type="radio" value="Male" id="male" name="gender" />
+              </div>
+
+              <div class="radio-inline">
+                <label for="female">Female</label>
+                <input type="radio" value="Female" id="female" name="gender" />
+              </div>
+            </div>
+          </div>
+          <div class="form-group-bio">
+            <label for="bio">Short Bio</label>
+            <textarea name="bio" id="bio"></textarea>
+          </div>
+
+          <div class="check-box">
+            <input type="checkbox" />
+            <div>accept the term and condition</div>
+          </div>
+          <div class="btn">
+            <div class="btn reset-button" S><input type="reset" /></div>
+
+            <div class="btn submit-button">
+              <input type="submit" />
+            </div>
+          </div>
+        </form>
+      </section>
     </div>
   </body>
 </html>
